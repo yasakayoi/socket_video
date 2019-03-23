@@ -25,7 +25,9 @@ public class ThreadClient implements Runnable , Serializable {
             Socket s = new Socket();
             //接受视频端IP和端口
             s.connect(new InetSocketAddress("127.0.0.1", 40000), 2000);
+
             if(s.isConnected() && !s.isClosed()){
+
                 System.out.println("Client:"+s.getRemoteSocketAddress().toString());
                 OutputStream oos = s.getOutputStream();
                 ImageIO.write(bufferedImage,"JPG",oos);
