@@ -18,12 +18,7 @@ import com.laifeng.sopcastsdk.ui.CameraLivingView;
 import com.example.realtimevideo.Constant;
 import com.example.realtimevideo.R;
 
-/**
- * Created by xu.wang
- * Date on  2018/5/28 10:36:29.
- *
- * @Desc
- */
+
 
 public class LaifengLivingActivity extends AppCompatActivity {
     private static final String TAG = "LaifengLivingActivity";

@@ -15,13 +15,13 @@
             android:layout_width="wrap_content"
 
             android:layout_height="wrap_content"
-            android:text="摄像" />
+            android:text="living" />
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/btn_test_record"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="投屏" />
+            android:text="record" />
     </LinearLayout>
 
     <android.support.v4.widget.SwipeRefreshLayout

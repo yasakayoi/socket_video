@@ -13,7 +13,7 @@
             android:id="@+id/et_main"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:hint="请输入Ip:" />
+            android:hint="Please enter Ip:" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.v7.widget.AppCompatButton

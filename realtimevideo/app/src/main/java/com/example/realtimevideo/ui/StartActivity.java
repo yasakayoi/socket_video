@@ -12,12 +12,6 @@ import android.view.View;
 
 import com.example.realtimevideo.R;
 
-/**
- * Created by xu.wang
- * Date on  2018/5/28 09:41:00.
- *
- * @Desc
- */
 
 public class StartActivity extends AppCompatActivity implements View.OnClickListener, SwipeRefreshLayout.OnRefreshListener {
 

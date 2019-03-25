@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         rl_detail = findViewById(R.id.rl_content_detail);
         mController = new VideoPlayController();
 
-        ((TextView)findViewById(R.id.showip)).setText("未开始投屏"+"\nipaddress:"+getLocalIpAddress());
+        ((TextView)findViewById(R.id.showip)).setText("There is no connected"+"\nipaddress:"+getLocalIpAddress());
 
         ScreenRecordController.getInstance()
                 .init(getApplication())
