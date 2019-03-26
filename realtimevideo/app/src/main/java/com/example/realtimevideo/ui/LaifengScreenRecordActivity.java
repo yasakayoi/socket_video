@@ -49,7 +49,6 @@ public class LaifengScreenRecordActivity extends com.laifeng.sopcastsdk.screen.S
                     requestRecording();
                     Log.e(TAG, "Ip = " + ip + "start record");
                     btn_start.setText("start record");
-                    setContentView(R.layout.activity_living);
                 } else {
                     stopRecording();
                     Log.e("Test", "stop record");
@@ -98,8 +97,6 @@ public class LaifengScreenRecordActivity extends com.laifeng.sopcastsdk.screen.S
         setRecordPacker(packer);
 
         tcpSender = new TcpSender(ip, Constant.port);
-        Log.d("my ipadress",ip);
-        Log.d("my port",String.valueOf(Constant.port));
         tcpSender.setSenderListener(this);
         tcpSender.setVideoParams(mVideoConfiguration);
         tcpSender.connect();
